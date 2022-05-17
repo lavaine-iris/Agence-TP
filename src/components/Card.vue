@@ -72,8 +72,8 @@ import superficie from "./superficie.vue";
 export default {
   props: {
     price: {
-      type: String,
-      default: "2700",
+      type: Number,
+      default: 2700,
     },
     adresse: {
       type: String,

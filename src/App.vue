@@ -186,7 +186,7 @@
         <Card
           :price="2095"
           :adresse="'2699 Green Valley, Highland Lake'"
-          :image="'/src/assets/house2.png'"
+          :image="'/public/house2.png'"
           :nom="'Palm Harbor'"
         />
         <Card
