@@ -33,42 +33,52 @@
           "
           :class="MenuOpen && 'translate-y-0'"
         >
-          <ul class="flex flex-col gap-8 py-4 lg:flex-row lg:items-center">
-            <li>Rent</li>
-            <li>Buy</li>
-            <li>Sell</li>
-            <li class="flex">
-              Manage Property<ChevronDownIcon class="mt-[3px] h-5 w-5" />
+          <ul class="flex items-center gap-32">
+            <li>
+              <ul class="flex flex-col gap-8 py-4 lg:flex-row lg:items-center">
+                <li>Rent</li>
+                <li>Buy</li>
+                <li>Sell</li>
+                <li class="flex">
+                  Manage Property<ChevronDownIcon class="mt-[3px] h-5 w-5" />
+                </li>
+                <li class="flex">
+                  Ressources<ChevronDownIcon class="mt-[3px] h-5 w-5" />
+                </li>
+              </ul>
             </li>
-            <li class="flex">
-              Ressources<ChevronDownIcon class="mt-[3px] h-5 w-5" />
-            </li>
-            <li
-              class="
-                hidden
-                rounded-sm
-                border-2 border-indigo-200
-                px-4
-                py-2
-                text-indigo-600
-                lg:flex
-              "
-            >
-              Login
-            </li>
-            <li
-              class="
-                hidden
-                rounded-sm
-                border-2
-                bg-indigo-600
-                px-4
-                py-2
-                text-white
-                lg:flex
-              "
-            >
-              Sign up
+            <li>
+              <ul class="flex h-12 gap-3">
+                <li
+                  class="
+                    hidden
+                    h-full
+                    items-center
+                    rounded-sm
+                    border-2 border-indigo-200
+                    px-4
+                    text-indigo-600
+                    lg:flex
+                  "
+                >
+                  Login
+                </li>
+                <li
+                  class="
+                    hidden
+                    h-full
+                    items-center
+                    rounded-sm
+                    border-2 border-indigo-600
+                    bg-indigo-600
+                    px-4
+                    text-white
+                    lg:flex
+                  "
+                >
+                  Sign up
+                </li>
+              </ul>
             </li>
           </ul>
         </nav>
@@ -221,7 +231,7 @@
           <HomeIcon class="h-8 w-8 fill-indigo-500" />
           <span class="font-semibold">Estatery</span>
         </div>
-        <div class="mx-5 flex w-full gap-28 pb-16 lg:flex-col">
+        <div class="mx-5 flex gap-28 pb-16 lg:w-full lg:flex-col">
           <div
             class="flex flex-col gap-3 lg:w-full lg:flex-row lg:justify-around"
           >
@@ -279,13 +289,13 @@
           gap-2
           border-t border-t-indigo-100
           pt-10
-          lg:flex-row
+          lg:flex-row lg:justify-evenly
         "
       >
-        <span class="text-xs text-gray-400"
+        <span class="text-xs text-gray-400 lg:w-1/3"
           >2021 Estatery. All rights reserved</span
         >
-        <span class="flex items-center gap-4">
+        <span class="flex w-1/3 items-center justify-around">
           <Instagram class="w-4" />
           <Facebook class="w-4" />
           <Twitter class="w-4" />
