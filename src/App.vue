@@ -33,12 +33,43 @@
           "
           :class="MenuOpen && 'translate-y-0'"
         >
-          <ul class="flex flex-col gap-8 py-4 lg:flex-row">
+          <ul class="flex flex-col gap-8 py-4 lg:flex-row lg:items-center">
             <li>Rent</li>
             <li>Buy</li>
             <li>Sell</li>
-            <li>Manage Property</li>
-            <li>Ressources</li>
+            <li class="flex">
+              Manage Property<ChevronDownIcon class="mt-[3px] h-5 w-5" />
+            </li>
+            <li class="flex">
+              Ressources<ChevronDownIcon class="mt-[3px] h-5 w-5" />
+            </li>
+            <li
+              class="
+                hidden
+                rounded-sm
+                border-2 border-indigo-200
+                px-4
+                py-2
+                text-indigo-600
+                lg:flex
+              "
+            >
+              Login
+            </li>
+            <li
+              class="
+                hidden
+                rounded-sm
+                border-2
+                bg-indigo-600
+                px-4
+                py-2
+                text-white
+                lg:flex
+              "
+            >
+              Sign up
+            </li>
           </ul>
         </nav>
       </div>
