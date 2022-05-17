@@ -185,63 +185,80 @@
       </div>
     </main>
     <footer>
-      <div class="mb-8 ml-16 mt-3 flex items-center">
-        <HomeIcon class="w-8 fill-indigo-500" />
-        <span class="font-semibold">Estatery</span>
-      </div>
-      <div class="ml-5 flex gap-28 border-b border-b-indigo-100 pb-16">
-        <div class="flex flex-col gap-3">
-          <div class="flex flex-col">
-            <p class="text-base font-semibold">Sell A Home</p>
-            <span class="text-xs text-gray-400">Request an offer</span>
-            <span class="text-xs text-gray-400">Pricing</span>
-            <span class="text-xs text-gray-400">Reviews</span>
-            <span class="text-xs text-gray-400">Stories</span>
+      <div class="flex flex-col pt-4 lg:flex-row">
+        <div class="mx-16 mb-8 mt-3 flex h-fit items-center">
+          <HomeIcon class="h-8 w-8 fill-indigo-500" />
+          <span class="font-semibold">Estatery</span>
+        </div>
+        <div class="mx-5 flex w-full gap-28 pb-16 lg:flex-col">
+          <div
+            class="flex flex-col gap-3 lg:w-full lg:flex-row lg:justify-around"
+          >
+            <div class="flex flex-col lg:w-28">
+              <p class="text-base font-semibold">Sell A Home</p>
+              <span class="text-xs text-gray-400">Request an offer</span>
+              <span class="text-xs text-gray-400">Pricing</span>
+              <span class="text-xs text-gray-400">Reviews</span>
+              <span class="text-xs text-gray-400">Stories</span>
+            </div>
+            <div class="flex flex-col lg:w-28">
+              <p class="text-base font-semibold">Buy A Home</p>
+              <span class="text-xs text-gray-400">Buy</span>
+              <span class="text-xs text-gray-400">Finance</span>
+            </div>
+            <div class="flex flex-col lg:w-28">
+              <p class="text-base font-semibold">Buy, Rent and Sell</p>
+              <span class="text-xs text-gray-400">Buy & sell properties</span>
+              <span class="text-xs text-gray-400">Rent home</span>
+              <span class="text-xs text-gray-400">Builder trade-up</span>
+            </div>
           </div>
-          <div class="flex flex-col">
-            <p class="text-base font-semibold">Buy A Home</p>
-            <span class="text-xs text-gray-400">Buy</span>
-            <span class="text-xs text-gray-400">Finance</span>
-          </div>
-          <div class="flex flex-col">
-            <p class="text-base font-semibold">Buy, Rent and Sell</p>
-            <span class="text-xs text-gray-400">Buy & sell properties</span>
-            <span class="text-xs text-gray-400">Rent home</span>
-            <span class="text-xs text-gray-400">Builder trade-up</span>
+          <div
+            class="flex flex-col gap-3 lg:w-full lg:flex-row lg:justify-around"
+          >
+            <div class="flex flex-col lg:w-28">
+              <p class="text-base font-semibold">Terms & Privacy</p>
+              <span class="text-xs text-gray-400">Trust & Safety</span>
+              <span class="text-xs text-gray-400">Terms of Service</span>
+              <span class="text-xs text-gray-400">Privacy Policy</span>
+            </div>
+            <div class="flex flex-col lg:w-28">
+              <p class="text-base font-semibold">About</p>
+              <span class="text-xs text-gray-400">Company</span>
+              <span class="text-xs text-gray-400">How it works</span>
+              <span class="text-xs text-gray-400">Contact</span>
+              <span class="text-xs text-gray-400">Investitor</span>
+            </div>
+            <div class="flex flex-col lg:w-28">
+              <p class="text-base font-semibold">Resources</p>
+              <span class="text-xs text-gray-400">Blog</span>
+              <span class="text-xs text-gray-400">Guides</span>
+              <span class="text-xs text-gray-400">FAQ</span>
+              <span class="text-xs text-gray-400">Help Center</span>
+            </div>
           </div>
         </div>
-        <div class="flex flex-col gap-3">
-          <div class="flex flex-col">
-            <p class="text-base font-semibold">Terms & Privacy</p>
-            <span class="text-xs text-gray-400">Trust & Safety</span>
-            <span class="text-xs text-gray-400">Terms of Service</span>
-            <span class="text-xs text-gray-400">Privacy Policy</span>
-          </div>
-          <div class="flex flex-col">
-            <p class="text-base font-semibold">About</p>
-            <span class="text-xs text-gray-400">Company</span>
-            <span class="text-xs text-gray-400">How it works</span>
-            <span class="text-xs text-gray-400">Contact</span>
-            <span class="text-xs text-gray-400">Investitor</span>
-          </div>
-          <div class="flex flex-col">
-            <p class="text-base font-semibold">Resources</p>
-            <span class="text-xs text-gray-400">Blog</span>
-            <span class="text-xs text-gray-400">Guides</span>
-            <span class="text-xs text-gray-400">FAQ</span>
-            <span class="text-xs text-gray-400">Help Center</span>
-          </div>
-        </div>
       </div>
-      <div class="my-10 flex flex-col items-center justify-center gap-2">
+      <div
+        class="
+          my-10
+          flex flex-col
+          items-center
+          justify-center
+          gap-2
+          border-t border-t-indigo-100
+          pt-10
+          lg:flex-row
+        "
+      >
         <span class="text-xs text-gray-400"
-          >© 2021 Estatery. All rights reserved</span
+          >2021 Estatery. All rights reserved</span
         >
-        <span class="flex gap-5">
-          <Facebook />
-          <Instagram />
-          <Twitter />
-          <Linkedin />
+        <span class="flex items-center gap-4">
+          <Instagram class="w-4" />
+          <Facebook class="w-4" />
+          <Twitter class="w-4" />
+          <Linkedin class="w-5" />
         </span>
       </div>
     </footer>
